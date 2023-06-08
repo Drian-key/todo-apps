@@ -6,7 +6,7 @@ export default function Router() {
   return (
     <Routes>
       <Route path="/" element={<Login />} />
-      <Route path="/app" element={<Dashboard />} />
+      <Route path="/dashboard" element={<Dashboard />} />
     </Routes>
   );
 }
