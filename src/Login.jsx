@@ -41,7 +41,7 @@ export default function Login() {
               />
             </div>
           </div>
-          <Link to="/app">
+          <Link to="/dashboard">
             <button className="w-full bg-button py-1.5 border rounded-lg font-medium">
               Sign in
             </button>
