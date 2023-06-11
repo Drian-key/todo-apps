@@ -35,7 +35,7 @@ export default function Login() {
             </div>
             <div>
               <input
-                type="text"
+                type="password"
                 className="w-full outline-headline py-1.5 px-2 border mt-2 rounded-lg"
                 placeholder="**********"
               />
