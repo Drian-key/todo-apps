@@ -9,9 +9,21 @@ export default function Login() {
           <img src={hamburger} alt="icon" />
         </div>
         <h1 className="text-center text-xl font-bold mb-8">
-          Sign in to your account
+          Register to create account
         </h1>
         <form action="" className="text-base">
+          <div className="mb-4">
+            <label htmlFor="" className="font-medium">
+              Name
+            </label>
+            <div>
+              <input
+                type="text"
+                className="w-full outline-headline py-1.5 px-2 border mt-2 rounded-lg"
+                placeholder="Andreas Owi"
+              />
+            </div>
+          </div>
           <div className="mb-4">
             <label htmlFor="" className="font-medium">
               Username
@@ -24,15 +36,22 @@ export default function Login() {
               />
             </div>
           </div>
-          <div className="mb-7">
-            <div className="flex justify-between">
-              <label htmlFor="" className="font-medium">
-                Password
-              </label>
-              <label htmlFor="" className="text-blue-800">
-                Forgot password?
-              </label>
+          <div className="mb-4">
+            <label htmlFor="" className="font-medium">
+              email
+            </label>
+            <div>
+              <input
+                type="text"
+                className="w-full outline-headline py-1.5 px-2 border mt-2 rounded-lg"
+                placeholder="andreasowi"
+              />
             </div>
+          </div>
+          <div className="mb-7">
+            <label htmlFor="" className="font-medium">
+              Create Password
+            </label>
             <div>
               <input
                 type="password"
@@ -41,16 +60,28 @@ export default function Login() {
               />
             </div>
           </div>
-          <Link to="/dashboard">
+          <div className="mb-4">
+            <label htmlFor="" className="font-medium">
+              Verify Password
+            </label>
+            <div>
+              <input
+                type="password"
+                className="w-full outline-headline py-1.5 px-2 border mt-2 rounded-lg"
+                placeholder="**********"
+              />
+            </div>
+          </div>
+          <Link to="/login">
             <button className="w-full bg-button py-1.5 border rounded-lg font-medium">
-              Sign in
+              Create
             </button>
           </Link>
           <div className="mt-8">
             <p className="text-center text-sm text-slate-600">
-              Don&apos;t have an account?{" "}
-              <Link to="/register">
-                <span className="text-blue-800 font-medium">Register</span>
+              Have an account?{" "}
+              <Link to="/login">
+                <span className="text-blue-800 font-medium">Log in</span>
               </Link>
             </p>
           </div>
