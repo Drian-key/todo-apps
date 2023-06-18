@@ -1,9 +1,12 @@
-import hamburger from "../assets/icon/hamburger.svg";
+import { Link } from "react-router-dom";
+import logout from "../assets/icon/solar_logout-3-line-duotone.svg";
 
 export default function Navbar() {
   return (
     <nav>
-      <img src={hamburger} alt="hamburger" />
+      <Link to="/">
+        <img src={logout} alt="logout" />
+      </Link>
     </nav>
   );
 }

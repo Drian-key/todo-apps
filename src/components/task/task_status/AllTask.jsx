@@ -38,7 +38,9 @@ export default function AllTask() {
               <img src={checkbox} alt="" />
             </span>
             <p>Crate Wireframe</p>
-            <span onClick={() => setAction("actionTask")}>
+            <span
+              onClick={() => setAction("actionTask")}
+              className="opacity-30 hover:opacity-100 transition-all ease-in-out duration-200">
               <img src={actionicon} alt="" />
             </span>
           </div>
@@ -53,7 +55,9 @@ export default function AllTask() {
             <p className={status2 ? "line-through" : null}>
               Finishing useCallback()
             </p>
-            <span onClick={() => setAction("actionTask")}>
+            <span
+              onClick={() => setAction("actionTask")}
+              className="opacity-30 hover:opacity-100 transition-all ease-in-out duration-200">
               <img src={actionicon} alt="" />
             </span>
           </div>
@@ -64,7 +68,9 @@ export default function AllTask() {
               <img src={checkbox} alt="" />
             </span>
             <p>Crate Wireframe</p>
-            <span onClick={() => setAction("actionTask")}>
+            <span
+              onClick={() => setAction("actionTask")}
+              className="opacity-30 hover:opacity-100 transition-all ease-in-out duration-200">
               <img src={actionicon} alt="" />
             </span>
           </div>
@@ -99,7 +105,9 @@ export default function AllTask() {
               <p>Crate Wireframe</p>
               <p className="text-xs">30 April</p>
             </span>
-            <span onClick={() => setAction("actionTask")}>
+            <span
+              onClick={() => setAction("actionTask")}
+              className="opacity-30 hover:opacity-100 transition-all ease-in-out duration-200">
               <img src={actionicon} alt="" />
             </span>
           </div>
